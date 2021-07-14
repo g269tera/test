@@ -1,0 +1,4 @@
+main: main.c
+ gcc -wall -O -o main main.c -lm
+clean:
+ rm main *~
